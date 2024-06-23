@@ -14,9 +14,11 @@ We use the entire Food101 dataset, which consists of:
 
 Training Images: 75,750
 Testing Images: 25,250
+
+![Screenshot 2024-06-24 043301](https://github.com/Rhythmbellic/Food-Vision/assets/92723976/c737190f-0c1d-4c75-9665-4a39398c683a)
+
 Optimization Techniques
 To improve the training speed and efficiency, we implement:
-
 Prefetching: Preloading data to reduce waiting times during training.
 Mixed Precision Training: Using a combination of single precision (float32) and half-precision (float16) to speed up model training, achieving up to 3x faster training on modern GPUs.
 Project Structure
